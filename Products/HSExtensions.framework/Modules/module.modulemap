@@ -1,0 +1,6 @@
+framework module HSExtensions {
+  umbrella header "HSExtensions.h"
+
+  export *
+  module * { export * }
+}
