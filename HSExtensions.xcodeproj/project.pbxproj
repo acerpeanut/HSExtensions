@@ -23,6 +23,7 @@
 /* Begin PBXBuildFile section */
 		295DC17A1CC5BCE9008BBC70 /* NSString+HSDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 295DC1781CC5BCE9008BBC70 /* NSString+HSDocument.h */; };
 		295DC17B1CC5BCE9008BBC70 /* NSString+HSDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 295DC1791CC5BCE9008BBC70 /* NSString+HSDocument.m */; };
+		296415871CE1CE7B00EADB32 /* HSCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 296415861CE1CE7B00EADB32 /* HSCommon.m */; };
 		299E6C7D1CC4F35F00E1E4DA /* HSiOSScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = 299E6C7B1CC4F35F00E1E4DA /* HSiOSScreen.h */; };
 		299E6C7E1CC4F35F00E1E4DA /* HSiOSScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 299E6C7C1CC4F35F00E1E4DA /* HSiOSScreen.m */; };
 		29F20AC31CBC85CD00FCE068 /* HSCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 29F20AC21CBC85CD00FCE068 /* HSCommon.h */; };
@@ -54,6 +55,7 @@
 /* Begin PBXFileReference section */
 		295DC1781CC5BCE9008BBC70 /* NSString+HSDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HSDocument.h"; sourceTree = "<group>"; };
 		295DC1791CC5BCE9008BBC70 /* NSString+HSDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HSDocument.m"; sourceTree = "<group>"; };
+		296415861CE1CE7B00EADB32 /* HSCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSCommon.m; sourceTree = "<group>"; };
 		299E6C7B1CC4F35F00E1E4DA /* HSiOSScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSiOSScreen.h; sourceTree = "<group>"; };
 		299E6C7C1CC4F35F00E1E4DA /* HSiOSScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSiOSScreen.m; sourceTree = "<group>"; };
 		29F20AC21CBC85CD00FCE068 /* HSCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSCommon.h; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 				299E6C7A1CC4F35F00E1E4DA /* Library */,
 				29F20AC41CBC867100FCE068 /* Category */,
 				29F20AC21CBC85CD00FCE068 /* HSCommon.h */,
+				296415861CE1CE7B00EADB32 /* HSCommon.m */,
 				3EFD02AC1CBC06E900D01B1C /* HSExtensions.h */,
 				3EFD02AE1CBC06E900D01B1C /* Info.plist */,
 			);
@@ -297,6 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				299E6C7E1CC4F35F00E1E4DA /* HSiOSScreen.m in Sources */,
+				296415871CE1CE7B00EADB32 /* HSCommon.m in Sources */,
 				29F20AD01CBC867100FCE068 /* NSDate+HS.m in Sources */,
 				29F20AD81CBC867100FCE068 /* UIImage+Scale.m in Sources */,
 				29F20AD21CBC867100FCE068 /* NSString+HSRegular.m in Sources */,

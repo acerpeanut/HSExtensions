@@ -14,4 +14,6 @@
 
 - (UIImage *)scaleImageWithLeft:(CGFloat)left top:(CGFloat)top;
 
++ (UIImage *)captureView:(UIView *)view;
+
 @end
