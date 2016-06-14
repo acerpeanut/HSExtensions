@@ -21,15 +21,13 @@
 }
 
 + (UIImage *)captureView:(UIView *)view {
-    CGSize viewSize = view.bounds.size;
-    CGContextRef bitmapcontext = CGBitmapContextCreate(NULL, viewSize.width, viewSize.height, 8, viewSize.width * 4, CGColorSpaceCreateDeviceRGB(), 1);
     
-    // "drawInContext:" may not work in all views
-    [view.layer renderInContext:bitmapcontext];
+    UIGraphicsBeginImageContext(view.bounds.size);
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    [view.layer renderInContext:context];
+    UIImage *graphicsImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return graphicsImage;
     
-    CGImageRef imageRef = CGBitmapContextCreateImage(bitmapcontext);
-    UIImage *image = [UIImage imageWithCGImage:imageRef];
-    
-    return image;
 }
 @end
