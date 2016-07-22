@@ -24,6 +24,14 @@
 		295DC17A1CC5BCE9008BBC70 /* NSString+HSDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 295DC1781CC5BCE9008BBC70 /* NSString+HSDocument.h */; };
 		295DC17B1CC5BCE9008BBC70 /* NSString+HSDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 295DC1791CC5BCE9008BBC70 /* NSString+HSDocument.m */; };
 		296415871CE1CE7B00EADB32 /* HSCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 296415861CE1CE7B00EADB32 /* HSCommon.m */; };
+		296E88601D4224F900D74D70 /* HSHorizonButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 296E885E1D4224F900D74D70 /* HSHorizonButton.h */; };
+		296E88611D4224F900D74D70 /* HSHorizonButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 296E885F1D4224F900D74D70 /* HSHorizonButton.m */; };
+		296E88641D42250300D74D70 /* HSAutoLineLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 296E88621D42250300D74D70 /* HSAutoLineLabel.h */; };
+		296E88651D42250300D74D70 /* HSAutoLineLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 296E88631D42250300D74D70 /* HSAutoLineLabel.m */; };
+		296E88681D42254D00D74D70 /* HSAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = 296E88661D42254D00D74D70 /* HSAlertController.h */; };
+		296E88691D42254D00D74D70 /* HSAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 296E88671D42254D00D74D70 /* HSAlertController.m */; };
+		296E886C1D42258300D74D70 /* HSHandDrawView.h in Headers */ = {isa = PBXBuildFile; fileRef = 296E886A1D42258300D74D70 /* HSHandDrawView.h */; };
+		296E886D1D42258300D74D70 /* HSHandDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 296E886B1D42258300D74D70 /* HSHandDrawView.m */; };
 		299E6C7D1CC4F35F00E1E4DA /* HSiOSScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = 299E6C7B1CC4F35F00E1E4DA /* HSiOSScreen.h */; };
 		299E6C7E1CC4F35F00E1E4DA /* HSiOSScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 299E6C7C1CC4F35F00E1E4DA /* HSiOSScreen.m */; };
 		29F20AC31CBC85CD00FCE068 /* HSCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 29F20AC21CBC85CD00FCE068 /* HSCommon.h */; };
@@ -56,6 +64,14 @@
 		295DC1781CC5BCE9008BBC70 /* NSString+HSDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HSDocument.h"; sourceTree = "<group>"; };
 		295DC1791CC5BCE9008BBC70 /* NSString+HSDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HSDocument.m"; sourceTree = "<group>"; };
 		296415861CE1CE7B00EADB32 /* HSCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSCommon.m; sourceTree = "<group>"; };
+		296E885E1D4224F900D74D70 /* HSHorizonButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSHorizonButton.h; sourceTree = "<group>"; };
+		296E885F1D4224F900D74D70 /* HSHorizonButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSHorizonButton.m; sourceTree = "<group>"; };
+		296E88621D42250300D74D70 /* HSAutoLineLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSAutoLineLabel.h; sourceTree = "<group>"; };
+		296E88631D42250300D74D70 /* HSAutoLineLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSAutoLineLabel.m; sourceTree = "<group>"; };
+		296E88661D42254D00D74D70 /* HSAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSAlertController.h; sourceTree = "<group>"; };
+		296E88671D42254D00D74D70 /* HSAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSAlertController.m; sourceTree = "<group>"; };
+		296E886A1D42258300D74D70 /* HSHandDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSHandDrawView.h; sourceTree = "<group>"; };
+		296E886B1D42258300D74D70 /* HSHandDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSHandDrawView.m; sourceTree = "<group>"; };
 		299E6C7B1CC4F35F00E1E4DA /* HSiOSScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSiOSScreen.h; sourceTree = "<group>"; };
 		299E6C7C1CC4F35F00E1E4DA /* HSiOSScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSiOSScreen.m; sourceTree = "<group>"; };
 		29F20AC21CBC85CD00FCE068 /* HSCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSCommon.h; sourceTree = "<group>"; };
@@ -96,6 +112,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		296E885D1D4224E600D74D70 /* SubUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				296E886A1D42258300D74D70 /* HSHandDrawView.h */,
+				296E886B1D42258300D74D70 /* HSHandDrawView.m */,
+				296E88661D42254D00D74D70 /* HSAlertController.h */,
+				296E88671D42254D00D74D70 /* HSAlertController.m */,
+				296E88621D42250300D74D70 /* HSAutoLineLabel.h */,
+				296E88631D42250300D74D70 /* HSAutoLineLabel.m */,
+				296E885E1D4224F900D74D70 /* HSHorizonButton.h */,
+				296E885F1D4224F900D74D70 /* HSHorizonButton.m */,
+			);
+			path = SubUIKit;
+			sourceTree = "<group>";
+		};
 		299E6C7A1CC4F35F00E1E4DA /* Library */ = {
 			isa = PBXGroup;
 			children = (
@@ -145,6 +176,7 @@
 		3EFD02AB1CBC06E900D01B1C /* HSExtensions */ = {
 			isa = PBXGroup;
 			children = (
+				296E885D1D4224E600D74D70 /* SubUIKit */,
 				299E6C7A1CC4F35F00E1E4DA /* Library */,
 				29F20AC41CBC867100FCE068 /* Category */,
 				29F20AC21CBC85CD00FCE068 /* HSCommon.h */,
@@ -171,15 +203,19 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				296E88641D42250300D74D70 /* HSAutoLineLabel.h in Headers */,
+				296E886C1D42258300D74D70 /* HSHandDrawView.h in Headers */,
 				29F20AD51CBC867100FCE068 /* UIBarButtonItem+HS.h in Headers */,
 				299E6C7D1CC4F35F00E1E4DA /* HSiOSScreen.h in Headers */,
 				29F20AC31CBC85CD00FCE068 /* HSCommon.h in Headers */,
+				296E88681D42254D00D74D70 /* HSAlertController.h in Headers */,
 				29F20ACF1CBC867100FCE068 /* NSDate+HS.h in Headers */,
 				295DC17A1CC5BCE9008BBC70 /* NSString+HSDocument.h in Headers */,
 				29F20AD11CBC867100FCE068 /* NSString+HSRegular.h in Headers */,
 				29F20AD71CBC867100FCE068 /* UIImage+Scale.h in Headers */,
 				3EFD02AD1CBC06E900D01B1C /* HSExtensions.h in Headers */,
 				29F20AD31CBC867100FCE068 /* NSString+HSTimeConvert.h in Headers */,
+				296E88601D4224F900D74D70 /* HSHorizonButton.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,14 +335,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				296E88611D4224F900D74D70 /* HSHorizonButton.m in Sources */,
 				299E6C7E1CC4F35F00E1E4DA /* HSiOSScreen.m in Sources */,
+				296E886D1D42258300D74D70 /* HSHandDrawView.m in Sources */,
 				296415871CE1CE7B00EADB32 /* HSCommon.m in Sources */,
 				29F20AD01CBC867100FCE068 /* NSDate+HS.m in Sources */,
 				29F20AD81CBC867100FCE068 /* UIImage+Scale.m in Sources */,
 				29F20AD21CBC867100FCE068 /* NSString+HSRegular.m in Sources */,
+				296E88651D42250300D74D70 /* HSAutoLineLabel.m in Sources */,
 				29F20AD41CBC867100FCE068 /* NSString+HSTimeConvert.m in Sources */,
 				29F20AD61CBC867100FCE068 /* UIBarButtonItem+HS.m in Sources */,
 				295DC17B1CC5BCE9008BBC70 /* NSString+HSDocument.m in Sources */,
+				296E88691D42254D00D74D70 /* HSAlertController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
