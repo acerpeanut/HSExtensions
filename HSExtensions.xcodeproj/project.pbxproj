@@ -23,6 +23,8 @@
 /* Begin PBXBuildFile section */
 		295DC17A1CC5BCE9008BBC70 /* NSString+HSDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 295DC1781CC5BCE9008BBC70 /* NSString+HSDocument.h */; };
 		295DC17B1CC5BCE9008BBC70 /* NSString+HSDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 295DC1791CC5BCE9008BBC70 /* NSString+HSDocument.m */; };
+		295EEE251D4A07E2005085DB /* UITextView+HSPlaceHolder.h in Headers */ = {isa = PBXBuildFile; fileRef = 295EEE231D4A07E2005085DB /* UITextView+HSPlaceHolder.h */; };
+		295EEE261D4A07E2005085DB /* UITextView+HSPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 295EEE241D4A07E2005085DB /* UITextView+HSPlaceHolder.m */; };
 		296415871CE1CE7B00EADB32 /* HSCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 296415861CE1CE7B00EADB32 /* HSCommon.m */; };
 		296E88601D4224F900D74D70 /* HSHorizonButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 296E885E1D4224F900D74D70 /* HSHorizonButton.h */; };
 		296E88611D4224F900D74D70 /* HSHorizonButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 296E885F1D4224F900D74D70 /* HSHorizonButton.m */; };
@@ -63,6 +65,8 @@
 /* Begin PBXFileReference section */
 		295DC1781CC5BCE9008BBC70 /* NSString+HSDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HSDocument.h"; sourceTree = "<group>"; };
 		295DC1791CC5BCE9008BBC70 /* NSString+HSDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HSDocument.m"; sourceTree = "<group>"; };
+		295EEE231D4A07E2005085DB /* UITextView+HSPlaceHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+HSPlaceHolder.h"; sourceTree = "<group>"; };
+		295EEE241D4A07E2005085DB /* UITextView+HSPlaceHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+HSPlaceHolder.m"; sourceTree = "<group>"; };
 		296415861CE1CE7B00EADB32 /* HSCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSCommon.m; sourceTree = "<group>"; };
 		296E885E1D4224F900D74D70 /* HSHorizonButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSHorizonButton.h; sourceTree = "<group>"; };
 		296E885F1D4224F900D74D70 /* HSHorizonButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSHorizonButton.m; sourceTree = "<group>"; };
@@ -139,6 +143,8 @@
 		29F20AC41CBC867100FCE068 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				295EEE231D4A07E2005085DB /* UITextView+HSPlaceHolder.h */,
+				295EEE241D4A07E2005085DB /* UITextView+HSPlaceHolder.m */,
 				29F20AC51CBC867100FCE068 /* NSDate+HS.h */,
 				29F20AC61CBC867100FCE068 /* NSDate+HS.m */,
 				29F20AC71CBC867100FCE068 /* NSString+HSRegular.h */,
@@ -206,6 +212,7 @@
 				296E88641D42250300D74D70 /* HSAutoLineLabel.h in Headers */,
 				296E886C1D42258300D74D70 /* HSHandDrawView.h in Headers */,
 				29F20AD51CBC867100FCE068 /* UIBarButtonItem+HS.h in Headers */,
+				295EEE251D4A07E2005085DB /* UITextView+HSPlaceHolder.h in Headers */,
 				299E6C7D1CC4F35F00E1E4DA /* HSiOSScreen.h in Headers */,
 				29F20AC31CBC85CD00FCE068 /* HSCommon.h in Headers */,
 				296E88681D42254D00D74D70 /* HSAlertController.h in Headers */,
@@ -346,6 +353,7 @@
 				29F20AD41CBC867100FCE068 /* NSString+HSTimeConvert.m in Sources */,
 				29F20AD61CBC867100FCE068 /* UIBarButtonItem+HS.m in Sources */,
 				295DC17B1CC5BCE9008BBC70 /* NSString+HSDocument.m in Sources */,
+				295EEE261D4A07E2005085DB /* UITextView+HSPlaceHolder.m in Sources */,
 				296E88691D42254D00D74D70 /* HSAlertController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
