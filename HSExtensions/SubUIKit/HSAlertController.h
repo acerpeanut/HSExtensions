@@ -10,8 +10,19 @@
 
 @interface HSAlertController : UIAlertController
 
-@property (nonatomic, strong) UITextField *textField;
+@property (nonatomic, strong, readonly) UITextField *textField;
 
+@property (nonatomic, copy) dispatch_block_t onCancel;
+@property (nonatomic, copy) dispatch_block_t onConfirm;
+
+/**
+ * 带输入框的AlertController(有取消，有确定)
+ */
 + (instancetype)alertControllerStyle1WithTitle:(NSString *)title message:(NSString *)message inputTextHandler:(void (^)(NSString *inputText))inputTextHandler;
+
+/**
+ * AlertController(有取消，有确定)
+ */
++ (instancetype)alertControllerStyleDefaultWithTitle:(NSString *)title message:(NSString *)message;
 
 @end
