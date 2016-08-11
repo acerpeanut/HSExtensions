@@ -34,6 +34,8 @@
 		296E88691D42254D00D74D70 /* HSAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 296E88671D42254D00D74D70 /* HSAlertController.m */; };
 		296E886C1D42258300D74D70 /* HSHandDrawView.h in Headers */ = {isa = PBXBuildFile; fileRef = 296E886A1D42258300D74D70 /* HSHandDrawView.h */; };
 		296E886D1D42258300D74D70 /* HSHandDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 296E886B1D42258300D74D70 /* HSHandDrawView.m */; };
+		297A29151D5C70A700E701FA /* NSData+HS.h in Headers */ = {isa = PBXBuildFile; fileRef = 297A29131D5C70A700E701FA /* NSData+HS.h */; };
+		297A29161D5C70A700E701FA /* NSData+HS.m in Sources */ = {isa = PBXBuildFile; fileRef = 297A29141D5C70A700E701FA /* NSData+HS.m */; };
 		298FB81C1D5196390072C74E /* HSVerticalButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 298FB81A1D5196390072C74E /* HSVerticalButton.h */; };
 		298FB81D1D5196390072C74E /* HSVerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 298FB81B1D5196390072C74E /* HSVerticalButton.m */; };
 		299E6C7D1CC4F35F00E1E4DA /* HSiOSScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = 299E6C7B1CC4F35F00E1E4DA /* HSiOSScreen.h */; };
@@ -78,6 +80,8 @@
 		296E88671D42254D00D74D70 /* HSAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSAlertController.m; sourceTree = "<group>"; };
 		296E886A1D42258300D74D70 /* HSHandDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSHandDrawView.h; sourceTree = "<group>"; };
 		296E886B1D42258300D74D70 /* HSHandDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSHandDrawView.m; sourceTree = "<group>"; };
+		297A29131D5C70A700E701FA /* NSData+HS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+HS.h"; sourceTree = "<group>"; };
+		297A29141D5C70A700E701FA /* NSData+HS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+HS.m"; sourceTree = "<group>"; };
 		298FB81A1D5196390072C74E /* HSVerticalButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSVerticalButton.h; sourceTree = "<group>"; };
 		298FB81B1D5196390072C74E /* HSVerticalButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSVerticalButton.m; sourceTree = "<group>"; };
 		299E6C7B1CC4F35F00E1E4DA /* HSiOSScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSiOSScreen.h; sourceTree = "<group>"; };
@@ -149,6 +153,8 @@
 		29F20AC41CBC867100FCE068 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				297A29131D5C70A700E701FA /* NSData+HS.h */,
+				297A29141D5C70A700E701FA /* NSData+HS.m */,
 				295EEE231D4A07E2005085DB /* UITextView+HSPlaceHolder.h */,
 				295EEE241D4A07E2005085DB /* UITextView+HSPlaceHolder.m */,
 				29F20AC51CBC867100FCE068 /* NSDate+HS.h */,
@@ -217,6 +223,7 @@
 			files = (
 				296E88641D42250300D74D70 /* HSAutoLineLabel.h in Headers */,
 				296E886C1D42258300D74D70 /* HSHandDrawView.h in Headers */,
+				297A29151D5C70A700E701FA /* NSData+HS.h in Headers */,
 				29F20AD51CBC867100FCE068 /* UIBarButtonItem+HS.h in Headers */,
 				295EEE251D4A07E2005085DB /* UITextView+HSPlaceHolder.h in Headers */,
 				299E6C7D1CC4F35F00E1E4DA /* HSiOSScreen.h in Headers */,
@@ -350,6 +357,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				298FB81D1D5196390072C74E /* HSVerticalButton.m in Sources */,
+				297A29161D5C70A700E701FA /* NSData+HS.m in Sources */,
 				296E88611D4224F900D74D70 /* HSHorizonButton.m in Sources */,
 				299E6C7E1CC4F35F00E1E4DA /* HSiOSScreen.m in Sources */,
 				296E886D1D42258300D74D70 /* HSHandDrawView.m in Sources */,
