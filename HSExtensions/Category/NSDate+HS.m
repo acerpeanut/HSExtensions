@@ -123,4 +123,32 @@
     return newString;
 }
 
+/**
+ 字符串转化为NSDate对象
+ 
+ @param dateString 日期字符串
+ @param format 日期格式
+ @return NSDate对象
+ */
++ (NSDate *)dateWithDateString:(NSString *)dateString format:(NSString *)format {
+    NSDateFormatter *fmt = [[NSDateFormatter alloc] init];
+    fmt.locale = [[NSLocale alloc] initWithLocaleIdentifier:@"us_EN"];
+    fmt.dateFormat = format;
+    
+    NSDate *date = [fmt dateFromString:dateString];
+    return date;
+}
+
+/**
+ 更新日期部件
+ 
+ @param unit 年/月/日等等
+ @param value value
+ @return 新的日期
+ */
+- (NSDate *)dateByAddingUnit:(NSCalendarUnit)unit value:(NSInteger)value {
+    NSCalendar *calendar = [NSCalendar currentCalendar];
+    return [calendar dateByAddingUnit:unit value:value toDate:self options:NSCalendarWrapComponents];
+}
+
 @end

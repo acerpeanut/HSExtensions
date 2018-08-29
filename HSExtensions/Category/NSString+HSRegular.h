@@ -10,6 +10,8 @@
 
 @interface NSString (HSRegular)
 
+- (NSString *)stringByRegularPattern:(NSString *)pattern;
+
 - (NSString *)stringByRegularReplacedWithPattern:(NSString *)pattern template:(NSString *)templateString;
 
 /**

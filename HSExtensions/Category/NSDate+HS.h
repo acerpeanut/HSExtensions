@@ -39,4 +39,22 @@
  */
 - (NSString *)stringWithDateFormat:(NSString *)dateFormat;
 
+/**
+ 字符串转化为NSDate对象
+
+ @param dateString 日期字符串
+ @param format 日期格式
+ @return NSDate对象
+ */
++ (NSDate *)dateWithDateString:(NSString *)dateString format:(NSString *)format;
+
+/**
+ 更新日期部件
+
+ @param unit 年/月/日等等
+ @param value value
+ @return 新的日期
+ */
+- (NSDate *)dateByAddingUnit:(NSCalendarUnit)unit value:(NSInteger)value;
+
 @end

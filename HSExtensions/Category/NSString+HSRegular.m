@@ -10,6 +10,18 @@
 
 @implementation NSString (HSRegular)
 
+- (NSString *)stringByRegularPattern:(NSString *)pattern {
+    NSRegularExpression *regex = [[NSRegularExpression alloc] initWithPattern:pattern options:NSRegularExpressionCaseInsensitive error:nil];
+    if (regex != nil) {
+        NSTextCheckingResult *firstMatch = [regex firstMatchInString:self
+                                                             options:0
+                                                               range:NSMakeRange(0, [self length])];
+        if (firstMatch) {
+            return [self substringWithRange:firstMatch.range];
+        }
+    }
+    return nil;
+}
 
 - (NSString *)stringByRegularReplacedWithPattern:(NSString *)pattern template:(NSString *)templateString
 {

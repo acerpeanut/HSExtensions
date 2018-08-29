@@ -54,6 +54,26 @@
 		3EFD02AD1CBC06E900D01B1C /* HSExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EFD02AC1CBC06E900D01B1C /* HSExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3EFD02B41CBC06E900D01B1C /* HSExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EFD02A91CBC06E900D01B1C /* HSExtensions.framework */; };
 		3EFD02B91CBC06E900D01B1C /* HSExtensionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EFD02B81CBC06E900D01B1C /* HSExtensionsTests.m */; };
+		84522A7621129519004A9B8A /* WCImagePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 84522A7421129518004A9B8A /* WCImagePicker.h */; };
+		84522A7721129519004A9B8A /* WCImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 84522A7521129519004A9B8A /* WCImagePicker.m */; };
+		84522A7A21129674004A9B8A /* UIViewController+HSDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 84522A7821129674004A9B8A /* UIViewController+HSDebug.h */; };
+		84522A7B21129674004A9B8A /* UIViewController+HSDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 84522A7921129674004A9B8A /* UIViewController+HSDebug.m */; };
+		84522A7E21129686004A9B8A /* NSArray+Log.h in Headers */ = {isa = PBXBuildFile; fileRef = 84522A7C21129686004A9B8A /* NSArray+Log.h */; };
+		84522A7F21129686004A9B8A /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 84522A7D21129686004A9B8A /* NSArray+Log.m */; };
+		84522A822112968D004A9B8A /* NSDictionary+Log.h in Headers */ = {isa = PBXBuildFile; fileRef = 84522A802112968D004A9B8A /* NSDictionary+Log.h */; };
+		84522A832112968D004A9B8A /* NSDictionary+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 84522A812112968D004A9B8A /* NSDictionary+Log.m */; };
+		84522A86211296AD004A9B8A /* NSObject+HSRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = 84522A84211296AD004A9B8A /* NSObject+HSRuntime.h */; };
+		84522A87211296AD004A9B8A /* NSObject+HSRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 84522A85211296AD004A9B8A /* NSObject+HSRuntime.m */; };
+		84522A8A2112973D004A9B8A /* NSArray+WCSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 84522A882112973C004A9B8A /* NSArray+WCSafe.m */; };
+		84522A8B2112973D004A9B8A /* NSArray+WCSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = 84522A892112973C004A9B8A /* NSArray+WCSafe.h */; };
+		84522A9121129760004A9B8A /* WCTableViewBaseDataUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 84522A8D21129760004A9B8A /* WCTableViewBaseDataUtil.h */; };
+		84522A9221129760004A9B8A /* WCTableViewBaseDataUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 84522A8E21129760004A9B8A /* WCTableViewBaseDataUtil.m */; };
+		84522A9321129760004A9B8A /* WCTableViewDataUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 84522A8F21129760004A9B8A /* WCTableViewDataUtil.h */; };
+		84522A9421129760004A9B8A /* WCTableViewDataUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 84522A9021129760004A9B8A /* WCTableViewDataUtil.m */; };
+		84522A972112980D004A9B8A /* HSValidateTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 84522A952112980D004A9B8A /* HSValidateTool.h */; };
+		84522A982112980D004A9B8A /* HSValidateTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 84522A962112980D004A9B8A /* HSValidateTool.m */; };
+		84522A9B211298EF004A9B8A /* WCThemeStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 84522A99211298EF004A9B8A /* WCThemeStyle.h */; };
+		84522A9C211298EF004A9B8A /* WCThemeStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 84522A9A211298EF004A9B8A /* WCThemeStyle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +123,26 @@
 		3EFD02B31CBC06E900D01B1C /* HSExtensionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HSExtensionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EFD02B81CBC06E900D01B1C /* HSExtensionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSExtensionsTests.m; sourceTree = "<group>"; };
 		3EFD02BA1CBC06E900D01B1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84522A7421129518004A9B8A /* WCImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCImagePicker.h; sourceTree = "<group>"; };
+		84522A7521129519004A9B8A /* WCImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCImagePicker.m; sourceTree = "<group>"; };
+		84522A7821129674004A9B8A /* UIViewController+HSDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HSDebug.h"; sourceTree = "<group>"; };
+		84522A7921129674004A9B8A /* UIViewController+HSDebug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HSDebug.m"; sourceTree = "<group>"; };
+		84522A7C21129686004A9B8A /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
+		84522A7D21129686004A9B8A /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
+		84522A802112968D004A9B8A /* NSDictionary+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Log.h"; sourceTree = "<group>"; };
+		84522A812112968D004A9B8A /* NSDictionary+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Log.m"; sourceTree = "<group>"; };
+		84522A84211296AD004A9B8A /* NSObject+HSRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HSRuntime.h"; sourceTree = "<group>"; };
+		84522A85211296AD004A9B8A /* NSObject+HSRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HSRuntime.m"; sourceTree = "<group>"; };
+		84522A882112973C004A9B8A /* NSArray+WCSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+WCSafe.m"; sourceTree = "<group>"; };
+		84522A892112973C004A9B8A /* NSArray+WCSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+WCSafe.h"; sourceTree = "<group>"; };
+		84522A8D21129760004A9B8A /* WCTableViewBaseDataUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCTableViewBaseDataUtil.h; sourceTree = "<group>"; };
+		84522A8E21129760004A9B8A /* WCTableViewBaseDataUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCTableViewBaseDataUtil.m; sourceTree = "<group>"; };
+		84522A8F21129760004A9B8A /* WCTableViewDataUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCTableViewDataUtil.h; sourceTree = "<group>"; };
+		84522A9021129760004A9B8A /* WCTableViewDataUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCTableViewDataUtil.m; sourceTree = "<group>"; };
+		84522A952112980D004A9B8A /* HSValidateTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSValidateTool.h; sourceTree = "<group>"; };
+		84522A962112980D004A9B8A /* HSValidateTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSValidateTool.m; sourceTree = "<group>"; };
+		84522A99211298EF004A9B8A /* WCThemeStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCThemeStyle.h; sourceTree = "<group>"; };
+		84522A9A211298EF004A9B8A /* WCThemeStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCThemeStyle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +167,8 @@
 		296E885D1D4224E600D74D70 /* SubUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				84522A7421129518004A9B8A /* WCImagePicker.h */,
+				84522A7521129519004A9B8A /* WCImagePicker.m */,
 				298FB81A1D5196390072C74E /* HSVerticalButton.h */,
 				298FB81B1D5196390072C74E /* HSVerticalButton.m */,
 				296E886A1D42258300D74D70 /* HSHandDrawView.h */,
@@ -144,6 +186,11 @@
 		299E6C7A1CC4F35F00E1E4DA /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				84522A99211298EF004A9B8A /* WCThemeStyle.h */,
+				84522A9A211298EF004A9B8A /* WCThemeStyle.m */,
+				84522A952112980D004A9B8A /* HSValidateTool.h */,
+				84522A962112980D004A9B8A /* HSValidateTool.m */,
+				84522A8C21129760004A9B8A /* TableViewUtils */,
 				299E6C7B1CC4F35F00E1E4DA /* HSiOSScreen.h */,
 				299E6C7C1CC4F35F00E1E4DA /* HSiOSScreen.m */,
 			);
@@ -153,6 +200,16 @@
 		29F20AC41CBC867100FCE068 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				84522A892112973C004A9B8A /* NSArray+WCSafe.h */,
+				84522A882112973C004A9B8A /* NSArray+WCSafe.m */,
+				84522A84211296AD004A9B8A /* NSObject+HSRuntime.h */,
+				84522A85211296AD004A9B8A /* NSObject+HSRuntime.m */,
+				84522A802112968D004A9B8A /* NSDictionary+Log.h */,
+				84522A812112968D004A9B8A /* NSDictionary+Log.m */,
+				84522A7C21129686004A9B8A /* NSArray+Log.h */,
+				84522A7D21129686004A9B8A /* NSArray+Log.m */,
+				84522A7821129674004A9B8A /* UIViewController+HSDebug.h */,
+				84522A7921129674004A9B8A /* UIViewController+HSDebug.m */,
 				297A29131D5C70A700E701FA /* NSData+HS.h */,
 				297A29141D5C70A700E701FA /* NSData+HS.m */,
 				295EEE231D4A07E2005085DB /* UITextView+HSPlaceHolder.h */,
@@ -214,6 +271,17 @@
 			path = HSExtensionsTests;
 			sourceTree = "<group>";
 		};
+		84522A8C21129760004A9B8A /* TableViewUtils */ = {
+			isa = PBXGroup;
+			children = (
+				84522A8D21129760004A9B8A /* WCTableViewBaseDataUtil.h */,
+				84522A8E21129760004A9B8A /* WCTableViewBaseDataUtil.m */,
+				84522A8F21129760004A9B8A /* WCTableViewDataUtil.h */,
+				84522A9021129760004A9B8A /* WCTableViewDataUtil.m */,
+			);
+			path = TableViewUtils;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -221,21 +289,31 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84522A7621129519004A9B8A /* WCImagePicker.h in Headers */,
 				296E88641D42250300D74D70 /* HSAutoLineLabel.h in Headers */,
+				84522A7A21129674004A9B8A /* UIViewController+HSDebug.h in Headers */,
 				296E886C1D42258300D74D70 /* HSHandDrawView.h in Headers */,
 				297A29151D5C70A700E701FA /* NSData+HS.h in Headers */,
 				29F20AD51CBC867100FCE068 /* UIBarButtonItem+HS.h in Headers */,
 				295EEE251D4A07E2005085DB /* UITextView+HSPlaceHolder.h in Headers */,
 				299E6C7D1CC4F35F00E1E4DA /* HSiOSScreen.h in Headers */,
+				84522A822112968D004A9B8A /* NSDictionary+Log.h in Headers */,
+				84522A7E21129686004A9B8A /* NSArray+Log.h in Headers */,
 				29F20AC31CBC85CD00FCE068 /* HSCommon.h in Headers */,
+				84522A86211296AD004A9B8A /* NSObject+HSRuntime.h in Headers */,
 				296E88681D42254D00D74D70 /* HSAlertController.h in Headers */,
 				29F20ACF1CBC867100FCE068 /* NSDate+HS.h in Headers */,
 				295DC17A1CC5BCE9008BBC70 /* NSString+HSDocument.h in Headers */,
 				29F20AD11CBC867100FCE068 /* NSString+HSRegular.h in Headers */,
+				84522A9321129760004A9B8A /* WCTableViewDataUtil.h in Headers */,
 				298FB81C1D5196390072C74E /* HSVerticalButton.h in Headers */,
+				84522A9B211298EF004A9B8A /* WCThemeStyle.h in Headers */,
 				29F20AD71CBC867100FCE068 /* UIImage+Scale.h in Headers */,
+				84522A8B2112973D004A9B8A /* NSArray+WCSafe.h in Headers */,
 				3EFD02AD1CBC06E900D01B1C /* HSExtensions.h in Headers */,
 				29F20AD31CBC867100FCE068 /* NSString+HSTimeConvert.h in Headers */,
+				84522A9121129760004A9B8A /* WCTableViewBaseDataUtil.h in Headers */,
+				84522A972112980D004A9B8A /* HSValidateTool.h in Headers */,
 				296E88601D4224F900D74D70 /* HSHorizonButton.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,7 +363,7 @@
 		3EFD02A01CBC06E900D01B1C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = acerpeanut;
 				TargetAttributes = {
 					3EFD02A81CBC06E900D01B1C = {
@@ -359,17 +437,27 @@
 				298FB81D1D5196390072C74E /* HSVerticalButton.m in Sources */,
 				297A29161D5C70A700E701FA /* NSData+HS.m in Sources */,
 				296E88611D4224F900D74D70 /* HSHorizonButton.m in Sources */,
+				84522A8A2112973D004A9B8A /* NSArray+WCSafe.m in Sources */,
 				299E6C7E1CC4F35F00E1E4DA /* HSiOSScreen.m in Sources */,
 				296E886D1D42258300D74D70 /* HSHandDrawView.m in Sources */,
+				84522A9221129760004A9B8A /* WCTableViewBaseDataUtil.m in Sources */,
+				84522A7721129519004A9B8A /* WCImagePicker.m in Sources */,
 				296415871CE1CE7B00EADB32 /* HSCommon.m in Sources */,
 				29F20AD01CBC867100FCE068 /* NSDate+HS.m in Sources */,
+				84522A832112968D004A9B8A /* NSDictionary+Log.m in Sources */,
 				29F20AD81CBC867100FCE068 /* UIImage+Scale.m in Sources */,
+				84522A7F21129686004A9B8A /* NSArray+Log.m in Sources */,
 				29F20AD21CBC867100FCE068 /* NSString+HSRegular.m in Sources */,
+				84522A7B21129674004A9B8A /* UIViewController+HSDebug.m in Sources */,
 				296E88651D42250300D74D70 /* HSAutoLineLabel.m in Sources */,
 				29F20AD41CBC867100FCE068 /* NSString+HSTimeConvert.m in Sources */,
 				29F20AD61CBC867100FCE068 /* UIBarButtonItem+HS.m in Sources */,
+				84522A9421129760004A9B8A /* WCTableViewDataUtil.m in Sources */,
 				295DC17B1CC5BCE9008BBC70 /* NSString+HSDocument.m in Sources */,
+				84522A9C211298EF004A9B8A /* WCThemeStyle.m in Sources */,
+				84522A87211296AD004A9B8A /* NSObject+HSRuntime.m in Sources */,
 				295EEE261D4A07E2005085DB /* UITextView+HSPlaceHolder.m in Sources */,
+				84522A982112980D004A9B8A /* HSValidateTool.m in Sources */,
 				296E88691D42254D00D74D70 /* HSAlertController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,13 +490,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -431,7 +529,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -450,13 +548,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -473,7 +581,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -486,6 +594,7 @@
 		3EFD02BE1CBC06E900D01B1C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -502,6 +611,7 @@
 		3EFD02BF1CBC06E900D01B1C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
