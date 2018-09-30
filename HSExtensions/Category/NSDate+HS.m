@@ -148,7 +148,7 @@
  */
 - (NSDate *)dateByAddingUnit:(NSCalendarUnit)unit value:(NSInteger)value {
     NSCalendar *calendar = [NSCalendar currentCalendar];
-    return [calendar dateByAddingUnit:unit value:value toDate:self options:NSCalendarWrapComponents];
+    return [calendar dateByAddingUnit:unit value:value toDate:self options:NSCalendarMatchStrictly];
 }
 
 @end
